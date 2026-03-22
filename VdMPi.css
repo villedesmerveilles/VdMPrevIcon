@@ -1,0 +1,455 @@
+@font-face {
+    font-family: "VdMPI";
+    src: url("https://cdn.jsdelivr.net/gh/villedesmerveilles/VdMPicons@main/VdMPI.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/villedesmerveilles/VdMPicons@main/VdMPI.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-palette-values --palette0 {
+    font-family: "VdMPI";
+    base-palette: 0
+}
+.icon, [class^="VdMPI-"], [class*=" VdMPI-"] {
+    /* Use !important to prevent extensions from overriding this font. */
+    font-family: "VdMPI" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.palette0 {
+    font-palette: --palette0;
+    color: currentColor;
+}
+.VdMPI-wine:before {
+    content: "\f071";
+}
+.VdMPI-sushi:before {
+    content: "\f072";
+}
+.VdMPI-sun:before {
+    content: "\f073";
+}
+.VdMPI-storm:before {
+    content: "\f074";
+}
+.VdMPI-pizza:before {
+    content: "\f075";
+}
+.VdMPI-lighting:before {
+    content: "\f076";
+}
+.VdMPI-ice-cream:before {
+    content: "\f077";
+}
+.VdMPI-herbal-tea:before {
+    content: "\f078";
+}
+.VdMPI-heavy-rain:before {
+    content: "\f079";
+}
+.VdMPI-coffee-cup:before {
+    content: "\f07a";
+}
+.VdMPI-cocktail:before {
+    content: "\f07b";
+}
+.VdMPI-clouds:before {
+    content: "\f07c";
+}
+.VdMPI-cake:before {
+    content: "\f07d";
+}
+.VdMPI-birthday-cake:before {
+    content: "\f07e";
+}
+.VdMPI-beer-mug:before {
+    content: "\f07f";
+}
+.VdMPI-beef:before {
+    content: "\f080";
+}
+.VdMPI-wind:before {
+    content: "\f081";
+}
+.VdMPI-top-secret:before {
+    content: "\f082";
+}
+.VdMPI-tombstone:before {
+    content: "\f083";
+}
+.VdMPI-sunset:before {
+    content: "\f084";
+}
+.VdMPI-snowy:before {
+    content: "\f085";
+}
+.VdMPI-sign:before {
+    content: "\f086";
+}
+.VdMPI-ocean:before {
+    content: "\f087";
+}
+.VdMPI-night:before {
+    content: "\f088";
+}
+.VdMPI-half-moon:before {
+    content: "\f089";
+}
+.VdMPI-fog:before {
+    content: "\f08a";
+}
+.VdMPI-blood-drop:before {
+    content: "\f08b";
+}
+.VdMPI-balloons:before {
+    content: "\f08c";
+}
+.VdMPI-anonymity:before {
+    content: "\f08d";
+}
+.VdMPI-wristwatch:before {
+    content: "\f049";
+}
+.VdMPI-wine-glass:before {
+    content: "\f04a";
+}
+.VdMPI-water:before {
+    content: "\f04b";
+}
+.VdMPI-wall-clock:before {
+    content: "\f04c";
+}
+.VdMPI-telephone:before {
+    content: "\f04d";
+}
+.VdMPI-technology:before {
+    content: "\f04e";
+}
+.VdMPI-talking:before {
+    content: "\f04f";
+}
+.VdMPI-tablet:before {
+    content: "\f050";
+}
+.VdMPI-swords:before {
+    content: "\f051";
+}
+.VdMPI-smoking:before {
+    content: "\f052";
+}
+.VdMPI-smartphone:before {
+    content: "\f053";
+}
+.VdMPI-skill-development:before {
+    content: "\f054";
+}
+.VdMPI-shout:before {
+    content: "\f055";
+}
+.VdMPI-send-data:before {
+    content: "\f056";
+}
+.VdMPI-see-you:before {
+    content: "\f057";
+}
+.VdMPI-school-bag:before {
+    content: "\f058";
+}
+.VdMPI-running-shoes:before {
+    content: "\f059";
+}
+.VdMPI-reading-book:before {
+    content: "\f05a";
+}
+.VdMPI-phone-call:before {
+    content: "\f05b";
+}
+.VdMPI-pencil-case:before {
+    content: "\f05c";
+}
+.VdMPI-microphone:before {
+    content: "\f05d";
+}
+.VdMPI-microphone1:before {
+    content: "\f05e";
+}
+.VdMPI-mail:before {
+    content: "\f05f";
+}
+.VdMPI-love-letter:before {
+    content: "\f060";
+}
+.VdMPI-love:before {
+    content: "\f061";
+}
+.VdMPI-letter:before {
+    content: "\f062";
+}
+.VdMPI-kiss:before {
+    content: "\f063";
+}
+.VdMPI-key-chain:before {
+    content: "\f064";
+}
+.VdMPI-hug:before {
+    content: "\f065";
+}
+.VdMPI-hearing:before {
+    content: "\f066";
+}
+.VdMPI-groundhog:before {
+    content: "\f067";
+}
+.VdMPI-glass-of-water:before {
+    content: "\f068";
+}
+.VdMPI-footprint:before {
+    content: "\f069";
+}
+.VdMPI-ear:before {
+    content: "\f06a";
+}
+.VdMPI-copy-writing:before {
+    content: "\f06b";
+}
+.VdMPI-computer:before {
+    content: "\f06c";
+}
+.VdMPI-boxing-gloves:before {
+    content: "\f06d";
+}
+.VdMPI-binoculars:before {
+    content: "\f06e";
+}
+.VdMPI-bag:before {
+    content: "\f06f";
+}
+.VdMPI-lighter:before {
+    content: "\f070";
+}
+.VdMPI-ImageToStl2:before {
+    content: "\f047";
+}
+.VdMPI-smiley:before {
+    content: "\f035";
+}
+.VdMPI-sad:before {
+    content: "\f036";
+}
+.VdMPI-angry:before {
+    content: "\f037";
+}
+.VdMPI-tired:before {
+    content: "\f038";
+}
+.VdMPI-thoughts:before {
+    content: "\f039";
+}
+.VdMPI-sigh:before {
+    content: "\f03a";
+}
+.VdMPI-sick:before {
+    content: "\f03b";
+}
+.VdMPI-shock:before {
+    content: "\f03c";
+}
+.VdMPI-shh:before {
+    content: "\f03d";
+}
+.VdMPI-scared:before {
+    content: "\f03e";
+}
+.VdMPI-sarcastic:before {
+    content: "\f03f";
+}
+.VdMPI-proud:before {
+    content: "\f040";
+}
+.VdMPI-pain:before {
+    content: "\f041";
+}
+.VdMPI-nervous:before {
+    content: "\f042";
+}
+.VdMPI-lol:before {
+    content: "\f043";
+}
+.VdMPI-jealousy:before {
+    content: "\f044";
+}
+.VdMPI-heart:before {
+    content: "\f045";
+}
+.VdMPI-embarrassed:before {
+    content: "\f046";
+}
+.VdMPI-confused:before {
+    content: "\f048";
+}
+.VdMPI-ImageToStl1:before {
+    content: "\f02c";
+}
+.VdMPI-ImageToStl:before {
+    content: "\f02b";
+}
+.VdMPI-waterfall:before {
+    content: "\f01f";
+}
+.VdMPI-tent:before {
+    content: "\f020";
+}
+.VdMPI-sun-umbrella:before {
+    content: "\f021";
+}
+.VdMPI-river:before {
+    content: "\f022";
+}
+.VdMPI-rec-button:before {
+    content: "\f023";
+}
+.VdMPI-path:before {
+    content: "\f024";
+}
+.VdMPI-mountain:before {
+    content: "\f025";
+}
+.VdMPI-lake:before {
+    content: "\f026";
+}
+.VdMPI-island:before {
+    content: "\f027";
+}
+.VdMPI-forest:before {
+    content: "\f028";
+}
+.VdMPI-flowers:before {
+    content: "\f029";
+}
+.VdMPI-desert:before {
+    content: "\f02a";
+}
+.VdMPI-workplace:before {
+    content: "\f02d";
+}
+.VdMPI-swimming-pool:before {
+    content: "\f02e";
+}
+.VdMPI-spa:before {
+    content: "\f02f";
+}
+.VdMPI-restaurant:before {
+    content: "\f030";
+}
+.VdMPI-research:before {
+    content: "\f031";
+}
+.VdMPI-private-garage:before {
+    content: "\f032";
+}
+.VdMPI-gym:before {
+    content: "\f033";
+}
+.VdMPI-field:before {
+    content: "\f034";
+}
+.VdMPI-train-station:before {
+    content: "\f000";
+}
+.VdMPI-train:before {
+    content: "\f001";
+}
+.VdMPI-streets:before {
+    content: "\f002";
+}
+.VdMPI-streetlight:before {
+    content: "\f003";
+}
+.VdMPI-port:before {
+    content: "\f004";
+}
+.VdMPI-police-station:before {
+    content: "\f005";
+}
+.VdMPI-mansion:before {
+    content: "\f006";
+}
+.VdMPI-lounge:before {
+    content: "\f007";
+}
+.VdMPI-location:before {
+    content: "\f008";
+}
+.VdMPI-lamp-post:before {
+    content: "\f009";
+}
+.VdMPI-internet:before {
+    content: "\f00a";
+}
+.VdMPI-hotel:before {
+    content: "\f00b";
+}
+.VdMPI-hospital:before {
+    content: "\f00c";
+}
+.VdMPI-gas-station:before {
+    content: "\f00d";
+}
+.VdMPI-clinic:before {
+    content: "\f00e";
+}
+.VdMPI-bridge:before {
+    content: "\f00f";
+}
+.VdMPI-apartment:before {
+    content: "\f010";
+}
+.VdMPI-university:before {
+    content: "\f011";
+}
+.VdMPI-store:before {
+    content: "\f012";
+}
+.VdMPI-stadium:before {
+    content: "\f013";
+}
+.VdMPI-shopping-mall:before {
+    content: "\f014";
+}
+.VdMPI-park:before {
+    content: "\f015";
+}
+.VdMPI-mugshot:before {
+    content: "\f016";
+}
+.VdMPI-gavel:before {
+    content: "\f017";
+}
+.VdMPI-disco-ball:before {
+    content: "\f018";
+}
+.VdMPI-church:before {
+    content: "\f019";
+}
+.VdMPI-cementery:before {
+    content: "\f01a";
+}
+.VdMPI-cafe:before {
+    content: "\f01b";
+}
+.VdMPI-bookstore:before {
+    content: "\f01c";
+}
+.VdMPI-bar-counter:before {
+    content: "\f01d";
+}
+.VdMPI-bank:before {
+    content: "\f01e";
+}
